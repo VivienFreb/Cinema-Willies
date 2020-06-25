@@ -1,0 +1,74 @@
+.presentation_film{
+    margin: 20px 20px 0 0;  
+    overflow: auto
+}  
+
+.film-titre {
+    font-weight: bold;
+    font-size: 200%;
+    padding: 9px;
+    background: #ccc
+}
+
+.affiche-film{
+    float: left;
+}
+
+.affiche-film img{
+    display: block;
+    width: 270px; 
+    height: auto;
+    margin: 0 auto;
+}
+
+.affiche-film img:hover{
+  /*transform: scale(1.1);*/ 
+}
+
+.description-film{
+    margin-left: 290px;
+    font-family: 'Bree Serif', serif;
+}
+
+
+.acteur {
+    margin: 5px;
+    float: left;
+    width: 202px;
+    font-family: 'Bree Serif', serif;
+    margin-right : 15px;
+}
+
+.acteur img:hover {
+    border-radius: 5px;
+}
+
+.acteur img {
+    /*width: 100%; */
+    border-radius: 50px;
+    height: 270px;
+}
+
+.btn-Clr {
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(249, 210, 210, 0.32);
+    background: rgb(246,1,1);
+    background: -moz-linear-gradient(top, rgba(246,1,1,1) 0%, rgba(134,8,8,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(246,1,1,1) 0%,rgba(134,8,8,1) 100%);
+    background: linear-gradient(to bottom, rgba(246,1,1,1) 0%,rgba(134,8,8,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f60101', endColorstr='#860808',GradientType=0 );
+    border-radius: 10px;
+    color: white;
+}
+
+.div-fit{
+    max-width:100%;
+    max-height:100%;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+.clear:before, .clear:after {content:'';display:table;}
+.clear:after{clear:both}
+.clear{*zoom:1;}

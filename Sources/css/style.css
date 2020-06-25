@@ -1,0 +1,71 @@
+body {
+    background-image: url("http://www.kleslo.com/wp-content/uploads/2016/12/SLIDE_PHOTO3-1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Nunito", sans-serif;
+    color: #222;
+    margin: 0;
+}
+
+* {
+    transition: all .65s ease-in-out;
+    box-sizing: border-box;
+    color: black;
+}
+
+.navbar {
+    margin-bottom: 10px
+}
+
+.container {
+    box-shadow: 0 0 80px 20px rgba(0,0,0,0.8);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0.9) 30%, rgba(255,255,255,0.9) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0.9) 30%,rgba(255,255,255,0.9) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0.9) 30%,rgba(255,255,255,0.9) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e6ffffff',GradientType=0 );
+  
+}
+/*
+.img-acteur{
+    width: 180px;
+    height: 270px;
+}*/
+
+@font-face {
+  font-family: matilda;
+  src: url(../fonts/matilda/Matilda.ttf);
+}
+
+.titre{
+   
+    font-family: matilda;
+    font-size: 40px;
+    padding-bottom:5px;
+    background: linear-gradient( to left, rgb(115, 1, 1) 0%, rgb(144, 28, 28) 12%, rgb(255, 0, 0) 47%, rgba(83,0,30,1) 100% ) left bottom no-repeat;
+    background-size:100% 4px ;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+}
+tr{
+    background-color: rgba(212, 210, 210, 0.3);
+}
+tr:nth-child(even){background-color: rgba(255, 254, 254, 0.3);}
+
+th {
+    background-color: white;
+    color: black;
+}
+
+input[type=number]{ 
+
+  margin: 0; 
+}
